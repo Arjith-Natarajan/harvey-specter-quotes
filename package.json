@@ -1,0 +1,32 @@
+{
+  "name": "harvey-specter-quotes",
+  "version": "1.0.0",
+  "description": "Get Random Harvey Specter Quotes",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arjith-Natarajan/harvey-specter-quotes.git"
+  },
+  "keywords": [
+    "suits",
+    "tv",
+    "series",
+    "harvey",
+    "specter",
+    "quotes",
+    "random",
+    "generator"
+  ],
+  "author": "Arjith Natarajan <arjith496@gmail.com> (https://arjith-natarajan.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Arjith-Natarajan/harvey-specter-quotes/issues"
+  },
+  "homepage": "https://github.com/Arjith-Natarajan/harvey-specter-quotes#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.1"
+  }
+}
