@@ -1,4 +1,4 @@
-var quotesJson = require("../harvey-quotes.json");
+var quotesJson = require("./harvey-quotes.json");
 var uniqueRandomArray = require("unique-random-array");
 
 module.exports = {
