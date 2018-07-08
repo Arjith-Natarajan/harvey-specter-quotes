@@ -63,7 +63,7 @@ console.log('Harvey replied,', randomQuote);
 The `harvey-specter-quotes` object has the following methods and attributes:
 ### `all`
 Returns all available quotes as an array.
-### `random()`
+### `random([count])`
 Function that returns a random quote from the collection of quote, that is never same as the previous call.
 ```js
 var randomQuote = harveyQuotes.random();
@@ -72,6 +72,19 @@ var anotherRandomQuote = harveyQuotes.random();
 // randomQuote !== anotherRandomQuote
 // At all times
 ```
+#### count - type:number (optional)
+When passed in an optional number as argument, API returns an array of quotes from the collection matching length of the argument specified.
+```js
+var moreQuotes = harveyQuotes.random(4);
+console.log(moreQuotes);
+>> [ 'The better you dress, the worse you can behave.',
+     'Life is a game. Play to win.',
+     'Work until you no longer have to inroduce yourself',
+     'Win a no win situation by rewriting the rules.' ]
+
+```
+
+
 
 ## Missing Something?
 Do have some more cool ideas for this project? Maybe you found some [bugs? or few typos?](https://github.com/Arjith-Natarajan/harvey-specter-quotes/issues)
