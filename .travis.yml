@@ -5,11 +5,13 @@ cache:
     - "node_modules"
 script:
   - npm run test:single
+  - npm run check-coverage
 notifications:
   email: false
 node_js:
   - 'node'
 after_success:
+  - npm run report-coverage
   - npm run travis-deploy-once "npm run semantic-release"
 branches:
   except:
