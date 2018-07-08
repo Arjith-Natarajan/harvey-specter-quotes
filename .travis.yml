@@ -4,8 +4,9 @@ cache:
     - ~/.npm
     - "node_modules"
 script:
-  - npm run test:single
+  - npm run cover
   - npm run check-coverage
+  - npm run build
 notifications:
   email: false
 node_js:

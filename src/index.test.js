@@ -1,5 +1,5 @@
-var harveyQuotes = require(".");
-var expect = require("chai").expect;
+import harveyQuotes from ".";
+import {expect} from "chai";
 
 describe("harvey-specter-quotes", () => {
   describe("all", () => {
@@ -28,7 +28,7 @@ describe("harvey-specter-quotes", () => {
     it("should return an array of quotes when passed an int", () => {
       var arrayOfQuotes = harveyQuotes.random(4);
       expect(arrayOfQuotes.length).to.equal(4);
-      for (item of arrayOfQuotes) {
+      for (var item of arrayOfQuotes) {
         expect(harveyQuotes.all).to.include(item);
       }
     });

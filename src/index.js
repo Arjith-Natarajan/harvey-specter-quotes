@@ -1,5 +1,5 @@
-var quotesJson = require("./harvey-quotes.json");
-var uniqueRandomArray = require("unique-random-array");
+import quotesJson from "./harvey-quotes.json";
+import uniqueRandomArray from "unique-random-array";
 var getRandomQuoteFromArray = uniqueRandomArray(quotesJson);
 
 module.exports = {
