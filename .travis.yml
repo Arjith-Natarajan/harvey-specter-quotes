@@ -3,6 +3,8 @@ cache:
   directories:
     - ~/.npm
     - "node_modules"
+script:
+  - npm run test:single
 notifications:
   email: false
 node_js:
