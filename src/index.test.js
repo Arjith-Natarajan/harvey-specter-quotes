@@ -24,6 +24,13 @@ describe("harvey-specter-quotes", () => {
       var quote1 = harveyQuotes.random();
       var quote2 = harveyQuotes.random();
       expect(quote1 !== quote2).to.be.true;
-    })
+    });
+    it("should return an array of quotes when passed an int", () => {
+      var arrayOfQuotes = harveyQuotes.random(4);
+      expect(arrayOfQuotes.length).to.equal(4);
+      for (item of arrayOfQuotes) {
+        expect(harveyQuotes.all).to.include(item);
+      }
+    });
   });
 });
