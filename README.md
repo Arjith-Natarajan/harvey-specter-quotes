@@ -1,6 +1,10 @@
 # Harvey Specter quotes
 A JavaScript micro-library to get quotes of **Harvey Specter**, from the series **Suits**.
 
+[![Travis](https://img.shields.io/travis/Arjith-Natarajan/harvey-specter-quotes.svg)](https://travis-ci.org/Arjith-Natarajan/harvey-specter-quotes)
+[![npm](https://img.shields.io/npm/v/harvey-specter-quotes.svg)](https://www.npmjs.com/package/harvey-specter-quotes)
+[![Codecov](https://img.shields.io/codecov/c/github/Arjith-Natarajan/harvey-specter-quotes.svg)](https://codecov.io/gh/Arjith-Natarajan/harvey-specter-quotes)
+[![npm](https://img.shields.io/npm/dt/harvey-specter-quotes.svg)](#installation)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-orange.svg?style=flat)](http://makeapullrequest.com)
 
