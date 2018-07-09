@@ -3,6 +3,9 @@ cache:
   directories:
     - ~/.npm
     - "node_modules"
+branches:
+  only:
+    - master
 script:
   - npm run cover
   - npm run check-coverage
