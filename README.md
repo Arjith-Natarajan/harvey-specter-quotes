@@ -45,14 +45,20 @@ The following are pre-requisites to run :
 ```sh
 $ npm install harvey-specter-quotes
 ```
-*This is project is distributed via [npm](npm) only*
+### Browser Support
+```html
+<script src='https://unpkg.com/harvey-specter-quotes@1.4.1/dist/index.umd.js'></script>
+                                  <!--  or  -->
+<script src='https://unpkg.com/harvey-specter-quotes@1.4.1/dist/index.umd.min.js'></script>
 
+```
 ## Usage
+### As Node Module
 You can load the node module dependency into your code with a require call:
 ```javaScript
 var harveyQuotes = require('harvey-specter-quotes');
 ```
-### Example
+#### Example
 ```javascript
 var harveyQuotes = require('harvey-specter-quotes');
 
@@ -61,6 +67,12 @@ var randomQuote = harveyQuotes.random();
 var anotherRandomQuote = harveyQuotes.random();
 
 console.log('Harvey replied,', randomQuote);
+```
+### For Browsers
+```html
+<script>
+  var quote1 = harveySpecterQuotes.random();
+</script>
 ```
 
 ## API
